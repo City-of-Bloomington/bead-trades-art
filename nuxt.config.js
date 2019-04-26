@@ -3,6 +3,12 @@ import pkg from './package'
 export default {
   mode: 'universal',
 
+  router: {
+    base:         'https://bloomington.in.gov/trades/arts/'
+  },
+
+  //publicPath: 'https://bloomington.in.gov/trades/arts/',
+  
   /*
   ** Headers of the page
   */

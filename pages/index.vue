@@ -4,7 +4,8 @@
 
     <div class="wrapper">
       <section id="one">
-        <img v-lazy="require('~/assets/images/art/lucas-b.jpg')" alt="Orix" />
+        <!-- <img v-lazy="require('~/assets/images/art/lucas-b.jpg')" alt="Orix" /> -->
+        <img src="~/assets/images/art/lucas-b.jpg" alt="Orix" />
 
         <div class="text">
           <h1>Orix</h1>
@@ -23,7 +24,8 @@
       </section>
 
       <section id="two">
-        <img v-lazy="require('~/assets/images/art/grand-b.jpg')" alt="Bloomington Grand Barbican" />
+        <!-- <img v-lazy="require('~/assets/images/art/grand-b.jpg')" alt="Bloomington Grand Barbican" /> -->
+        <img src="~/assets/images/art/grand-b.jpg" alt="Bloomington Grand Barbican" />
 
         <div class="text">
           <h1>Bloomington Grand Barbican</h1>
@@ -40,8 +42,8 @@
       </section>
 
       <section id="three">
-        <img v-lazy="require('~/assets/images/art/stefan-r.jpg')" alt="Stefan Reiss - O.T. 987" />
-
+        <!--<img v-lazy="require('~/assets/images/art/stefan-r.jpg')" alt="Stefan Reiss - O.T. 987" />-->
+        <img src="~/assets/images/art/stefan-r.jpg" alt="Stefan Reiss - O.T. 987" />
         <div class="text">
           <h1>Stefan Reiss - O.T. 987</h1>
           <p>My most recent art works are interventions in public space, at festivals or in exhibitions that appeal to a wide range of visitors. They can be understood worldwide and invite everyone to experience them, beyond any borders.</p>
@@ -64,7 +66,8 @@
       </section>
 
       <section id="four">
-        <img v-lazy="require('~/assets/images/art/andrea-s.jpg')" alt="Andrea Stanislav - Mirror Transmission" />
+        <!-- <img v-lazy="require('~/assets/images/art/andrea-s.jpg')" alt="Andrea Stanislav - Mirror Transmission" /> -->
+        <img src="~/assets/images/art/andrea-s.jpg" alt="Andrea Stanislav - Mirror Transmission" />
 
         <div class="text">
           <h1>Andrea Stanislav - Mirror Transmission</h1>
@@ -80,7 +83,8 @@
       </section>
 
       <section id="five">
-        <img v-lazy="require('~/assets/images/art/ben-z.jpg')" alt="Ben Zamora - Exhale" />
+        <!-- <img v-lazy="require('~/assets/images/art/ben-z.jpg')" alt="Ben Zamora - Exhale" /> -->
+        <img src="~/assets/images/art/ben-z.jpg" alt="Ben Zamora - Exhale" />
 
         <div class="text">
           <h1>Ben Zamora - Exhale</h1>
