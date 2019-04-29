@@ -4,11 +4,11 @@ export default {
   mode: 'universal',
 
   router: {
-    base:         'https://bloomington.in.gov/trades/arts/'
+    // base:         'https://bloomington.in.gov/trades/arts/'
   },
 
   //publicPath: 'https://bloomington.in.gov/trades/arts/',
-  
+
   /*
   ** Headers of the page
   */
@@ -44,7 +44,7 @@ export default {
   */
   plugins: [
     { src: '~/plugins/vue-lazyload', ssr: false },
-    // { src: '~/plugins/ga.js',        ssr: false }
+    { src: '~/plugins/ga.js',        ssr: false }
   ],
 
   /*
@@ -60,11 +60,11 @@ export default {
   /*
   ** Build configuration
   */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
+  builder: {
+    extend (config, { isDev }) {
+      if (!isDev) {
+        config.output.publicPath = './_nuxt/'
+      }
     }
   }
 }

@@ -112,4 +112,56 @@ header {
     }
   }
 }
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+  header {
+    padding: 8px 16px;
+
+    h1 {
+      display: none;
+    }
+
+    a {
+      &.logo {
+        margin: 0 16px 0 0;
+
+        img {
+          width: 40px;
+        }
+      }
+
+      &.button {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media only screen
+and (min-width : 481px)
+and (max-width : 768px) {
+  header {
+    padding: 8px 16px;
+
+    h1 {
+      display: none;
+    }
+
+    a {
+      &.logo {
+        margin: 0 16px 0 0;
+
+        img {
+          width: 40px;
+        }
+      }
+
+      &.button {
+        font-size: 14px;
+      }
+    }
+  }
+}
 </style>

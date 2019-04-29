@@ -198,4 +198,68 @@ export default {
       }
     }
   }
+
+  @media only screen
+  and (min-width : 320px)
+  and (max-width : 480px) {
+    .main {
+      top: 78px;
+      margin: 0 0 20px 0;
+    }
+
+    .cover {
+      top: 58px;
+    }
+
+    .wrapper {
+      width: calc(100% - 32px);
+      margin: 0 auto;
+
+      section {
+        .text {
+          h1 {
+            font-size: 24px;
+            line-height: 24px;
+          }
+
+          h2 {
+            font-size: 18px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen
+  and (min-width : 481px)
+  and (max-width : 768px) {
+    .main {
+      top: 78px;
+      margin: 0 0 20px 0;
+    }
+
+    .cover {
+      top: 58px;
+    }
+
+    .wrapper {
+      width: calc(100% - 32px);
+      margin: 0 auto;
+
+      section {
+        .text {
+          h1 {
+            font-size: 24px;
+            line-height: 24px;
+          }
+
+          h2 {
+            font-size: 18px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
 </style>
