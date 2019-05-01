@@ -66,6 +66,28 @@ header {
   width: 100%;
   padding: 16px;
 
+  @media all and(-ms-high-contrast: none),(-ms-high-contrast: active) {
+    display: block;
+
+    h1 {
+      display: inline-block;
+    }
+
+    a {
+      &.logo {
+        float: left;
+
+        img {
+          height: 100%;
+        }
+      }
+
+      &.button {
+        float: right;
+      }
+    }
+  }
+
   h1 {
     color: rgba(225, 225, 225, 0.95);
     letter-spacing: .5px;
