@@ -113,7 +113,7 @@ export default {
     top: 92px;
     right: 0;
     left: 0;
-    background-image: url('/images/cover.jpg');
+    background-image: url('../static/images/cover.jpg');
     background-size: cover;
     background-position-y: -150px;
     height: 450px;
