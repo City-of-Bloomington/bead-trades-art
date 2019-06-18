@@ -2,7 +2,7 @@
   <div>
     <header>
       <a class="logo" href="https://visitbead.com/" title="BEAD - Bloomington Entertainment & Arts District">
-        <img src="/images/bead-logo.svg" alt="BEAD Logo"/>
+        <img src="images/bead-logo.svg" alt="BEAD Logo"/>
       </a>
 
       <h1>Bloomington Trades District Public Art</h1>

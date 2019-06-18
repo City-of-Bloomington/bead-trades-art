@@ -4,10 +4,8 @@ export default {
   mode: 'universal',
 
   router: {
-    // base:         'https://bloomington.in.gov/trades/arts/'
+    base:         '/trades/arts/'
   },
-
-  //publicPath: 'https://bloomington.in.gov/trades/arts/',
 
   /*
   ** Headers of the page
@@ -62,8 +60,8 @@ export default {
   */
   builder: {
     extend (config, { isDev }) {
-      if (!isDev) {
-        config.output.publicPath = './_nuxt/'
+      if(!ctx.isDev) {
+        config.output.publicPath = '/trades/arts/_nuxt/'
       }
     }
   }
